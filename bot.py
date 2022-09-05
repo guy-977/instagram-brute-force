@@ -1,18 +1,6 @@
-aksh=inputaksh=input(' please enter the password =~~~~~~ ' )
-print('\n')
-if aksh=='roy@zig':
-   print(' your password is correct ' )
-
-else:
-  print(' your password is incorrect ' )
-  print('\n')
-  exit()
-print('\n')
-
-
 from os import name , system
 from requests import post
-from colorama import Fore
+from colorama import Fore, Back, Style
 from datetime import datetime
 from uuid import uuid4
 from time import sleep
@@ -22,12 +10,13 @@ red = Fore.RED
 green = Fore.GREEN
 blue = Fore.BLUE
 white = Fore.WHITE
-if name == 'nt':
-    system('cls')
-    webbrowser.open('https://instagram.com/seignuersofficial?igshid=YmMyMTA2M2Y=')
-else:
-    system('clear')
-    system('xdg-open https://instagram.com/seignuersofficial?igshid=YmMyMTA2M2Y=')
+magenta = Fore.MAGENTA
+back = Back.BLACK
+reset = Style.RESET_ALL
+
+
+print(back+magenta+'original developers are roy & zig \n thier team is seignueros\n thier insta: seignuersofficial')
+print(reset+'\n')
 print(white+'''
                                  
           
