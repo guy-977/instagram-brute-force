@@ -6,8 +6,8 @@ SIMPLE BRUTE FORCE FOR INSTAGRAM
 
 - Just, Clone this repository -
   ```
-  git clone https://github.com/seignuers/seignuers-brute-force
-$ cd seignuers-brute-force
+  git clone https://github.com/guy-977/instagram-brute-force
+$ cd instagram-brute-force
 
 $ python bot.py
   
